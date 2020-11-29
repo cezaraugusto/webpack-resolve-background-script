@@ -8,7 +8,7 @@
     "node": ">=10"
   },
   "name": "webpack-resolve-background-script",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Resolve background scripts defined in manifest.json at compile time",
   "main": "module.js",
   "author": {

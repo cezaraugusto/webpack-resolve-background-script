@@ -18,12 +18,12 @@ const config = {
     new CopyPlugin({
       patterns: [
         {
-          from: './testExtension/manifest.json',
-          to: outputPath
+          from: path.resolve(__dirname, './testExtension/manifest.json'),
+          to: path.join(outputPath, 'manifest.json')
         }
       ]
     }),
-    new WebpackResolveBackgroundScript(outputManifestPath)
+    // new WebpackResolveBackgroundScript(outputManifestPath)
   ]
 }
 
